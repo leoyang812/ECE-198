@@ -12,6 +12,8 @@ From the repository root on Windows:
 
 Open **http://127.0.0.1:3000**. To use another port, run `.\start-frontend.cmd -- --port 3001`.
 
+The Windows launcher installs the locked frontend dependencies automatically if Next.js is missing. The first launch needs an internet connection. After pulling changes to `package-lock.json`, run `npm.cmd ci` inside `frontend` to refresh the installed dependencies.
+
 On another machine, install Node.js 20.9 or newer, then:
 
 ```sh
